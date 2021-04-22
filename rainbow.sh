@@ -6,7 +6,7 @@ tput civis
 clear
 
 while true;
-    do cat $1 | lolcat -p .5
+    do cat $1 | lolcat -p .5 2>/dev/null
         sleep .1
     tput cup 0 0
 done
